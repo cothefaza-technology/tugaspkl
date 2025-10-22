@@ -32,19 +32,13 @@ if($qry == true){
 </tr>
 </thead>
 <tbody>
-<?php
-     $no = 1;
-     $sqlResult = $conn->query("SELECT*FROM tb_siswa");
-     foreach ($sqlResult as $data) {
-?>
+.......
 <tr>
 <th scope="row">1</th>
 <td><?=$data['nis']?></td>
 <td><?=$data['nama']?></td>
 <td><?=$data['kelas']?></td>
 </tr>
-<?php
-        }
-?>
+......
 </tbody>
 </table>
