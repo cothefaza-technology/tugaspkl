@@ -33,8 +33,9 @@ if($qry == true){
 </thead>
 <tbody>
 <?php
+     $no = 1;
+     $sqlResult = $conn->query("SELECT*FROM tb_siswa");
      foreach ($sqlResult as $data) {
-          
 ?>
 <tr>
 <th scope="row">1</th>
