@@ -68,7 +68,7 @@ Di dalam folder tersebut, buat file dengan nama:
    ?>
    ```
 6. untuk melihat hasilnya jalankan program kalian dilocal server masing-masing
-   # TUGAS 22/10/2025
+   # TUGAS Rabu, 22/10/2025
 
     1. Ketikan kode berikut di file `tugas_keempat.php`
        ```php
