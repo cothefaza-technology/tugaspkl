@@ -24,11 +24,7 @@
     <input type="text" name="kelas">
     <button type="submit" name="btn">Submit</button>
 </form>
-<?php
-$no = 1;
- $sqlResult = $conn->query("SELECT*FROM tb_siswa");
-foreach($sqlResult as $data){
-            ?>
+
 
        <table class="table">
        <thead>
@@ -40,6 +36,11 @@ foreach($sqlResult as $data){
        </tr>
        </thead>
        <tbody>
+          <?php
+          $no = 1;
+          $sqlResult = $conn->query("SELECT*FROM tb_siswa");
+          foreach($sqlResult as $data){
+            ?>
        <tr>
        <td><?=$no++?></td>
        <td><?=$data['nis']?></td>
