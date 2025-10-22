@@ -26,8 +26,8 @@
 </form>
 <?php
 $no = 1;
-        $sqlResult = $conn->query("SELECT*FROM tb_artikel");
-        foreach($sqlResult as $data){
+ $sqlResult = $conn->query("SELECT*FROM tb_siswa");
+foreach($sqlResult as $data){
             ?>
 
        <table class="table">
@@ -42,6 +42,7 @@ $no = 1;
        <tbody>
        <tr>
        <th scope="row">1</th>
+       <td><?=$no++?></td>
        <td><?=$data['nis']?></td>
        <td><?=$data['nama']?></td>
        <td><?=$data['kelas']?></td>
