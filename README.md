@@ -93,7 +93,7 @@ Di dalam folder tersebut, buat file dengan nama:
        </tbody>
        </table>
        ```
-        #intruksinya :
-        > ganti dibagian titik-titiknya dengan perulangan
-        > Gunakan foreach untuk perulangannya dimana untuk as $data
+        #Intruksinya :
+        > 1. Di bagian titik-titiknya ganti dengan perulangan untuk menampilkan data tabel siswa
+        > 2. Gunakan `foreach` untuk perulangannya dan `$data` sebagai inisiasi `$result`
 
