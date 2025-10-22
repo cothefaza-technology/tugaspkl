@@ -24,7 +24,11 @@
     <input type="text" name="kelas">
     <button type="submit" name="btn">Submit</button>
 </form>
-
+<div class="card">
+  <div class="card-header bg-dark text-white">Daftar barang</div>
+  <div class="card-body">
+    <table class="table table-bordered table-hover">
+      <thead class="table-secondary">
 
        <table class="table">
        <thead>
@@ -54,3 +58,5 @@
 <?php
         }
 ?>
+</tbody>
+    </table>
