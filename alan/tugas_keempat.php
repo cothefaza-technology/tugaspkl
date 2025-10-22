@@ -48,9 +48,10 @@
        <td><?=$data['kelas']?></td>
        </tr>
     
-       </tbody>
-       </table>
       
 <?php
         }
 ?>
+ </tbody>
+       </table>
+      
