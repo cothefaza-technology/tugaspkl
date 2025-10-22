@@ -96,4 +96,21 @@ Di dalam folder tersebut, buat file dengan nama:
         # Intruksinya :
         > 1. Di bagian titik-titiknya ganti dengan perulangan untuk menampilkan data tabel siswa
         > 2. Gunakan `foreach` untuk perulangannya dan `$data` sebagai inisiasi `$result`
+        
+       # Tugas Kamis, 23 Oktober 2025
+       Petunjuk Pengerjaan:
+       1. Buat sebuah file baru dengan nama tugas_lima.php.
+       2. Di dalam file tersebut, buat form input data barang yang memiliki isian sebagai berikut:
+         > Kode Barang
+         > Nama Barang
+         > Harga Barang
+         > Jumlah Barang
+         > Kondisi Barang
+       3. Buat tabel database dengan nama tb_barang di dalam database db_datasiswa.
+       4. Jumlah dan nama kolom harus sesuai dengan field yang ada pada form input.
+       5. Tambahkan proses penyimpanan data barang ke dalam database menggunakan bahasa pemrograman PHP.
+   ## Catatan:
+    1. Gunakan metode POST untuk mengirim data dari form.
+    2. Pastikan koneksi ke database berfungsi dengan benar.
+    3. Tampilkan pesan berhasil atau gagal setelah proses input data dilakukan.
 
