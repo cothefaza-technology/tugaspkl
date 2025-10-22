@@ -101,11 +101,7 @@ Di dalam folder tersebut, buat file dengan nama:
        Petunjuk Pengerjaan:
        1. Buat sebuah file baru dengan nama tugas_lima.php.
        2. Di dalam file tersebut, buat form input data barang yang memiliki isian sebagai berikut:
-          a. Kode Barang
-          b. Nama Barang
-          c. Harga Barang
-          d. Jumlah Barang
-          e. Kondisi Barang
+           `Kode Barang` , `Nama Barang`, `Harga Barang`, `Jumlah Barang`, `Kondisi Barang`
        4. Buat tabel database dengan nama tb_barang di dalam database db_datasiswa.
        5. Jumlah dan nama kolom harus sesuai dengan field yang ada pada form input.
        6. Tambahkan proses penyimpanan data barang ke dalam database menggunakan bahasa pemrograman PHP.
