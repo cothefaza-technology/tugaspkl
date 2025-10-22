@@ -24,7 +24,11 @@
     <input type="text" name="kelas">
     <button type="submit" name="btn">Submit</button>
 </form>
-
+<?php
+$no = 1;
+        $sqlResult = $conn->query("SELECT*FROM tb_artikel");
+        foreach($sqlResult as $data){
+            ?>
 
        <table class="table">
        <thead>
@@ -47,4 +51,5 @@
        </table>
       
 <?php
+        }
 ?>
