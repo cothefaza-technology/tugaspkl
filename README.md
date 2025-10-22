@@ -68,4 +68,30 @@ Di dalam folder tersebut, buat file dengan nama:
    ?>
    ```
 6. untuk melihat hasilnya jalankan program kalian dilocal server masing-masing
+   # TUGAS Rabu, 22/10/2025
+
+    1. Ketikan kode berikut di file `tugas_keempat.php`
+       ```php
+       <table class="table">
+       <thead>
+       <tr>
+       <th scope="col">No</th>
+       <th scope="col">NIS</th>
+       <th scope="col">Nama</th>
+       <th scope="col">Kelas</th>
+       </tr>
+       </thead>
+       <tbody>
+       .......
+       <tr>
+       <th scope="row">1</th>
+       <td><?=$data['nis']?></td>
+       <td><?=$data['nama']?></td>
+       <td><?=$data['kelas']?></td>
+       </tr>
+       ......
+       </tbody>
+       </table>
+       ```
+       Gunakan foreach untuk perulangannya dimana untuk as $data
 
