@@ -82,9 +82,8 @@ Di dalam folder tersebut, buat file dengan nama:
        </tr>
        </thead>
        <tbody>
-       .......
+      
        <tr>
-       <th scope="row">1</th>
        <td><?=$data['nis']?></td>
        <td><?=$data['nama']?></td>
        <td><?=$data['kelas']?></td>
