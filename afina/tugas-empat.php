@@ -21,3 +21,4 @@ if($qry == true){
     <input type="text" name="kelas">
     <button type="submit">Submit</button>
 </form>
+<table class="table">
