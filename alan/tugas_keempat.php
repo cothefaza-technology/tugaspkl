@@ -41,7 +41,6 @@ foreach($sqlResult as $data){
        </thead>
        <tbody>
        <tr>
-       <th scope="row">1</th>
        <td><?=$no++?></td>
        <td><?=$data['nis']?></td>
        <td><?=$data['nama']?></td>
