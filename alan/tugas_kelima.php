@@ -45,6 +45,8 @@
        <th scope="col">harga barang</th>
        <th scope="col">jumlah barang</th>
        <th scope="col">kondisi barang</th>
+       <th>Aksi</th>
+
        </tr>
        </thead>
        <tbody>
@@ -60,6 +62,10 @@
        <td>Rp.   <?=number_format($data['harga_brg'])?></td>
        <td><?=$data['jumlah_brg']?></td>
        <td><?=$data['kondisi_brg']?></td>
+       <td>
+            <a href="#" class="btn btn-warning btn-sm">Edit</a>
+            <a href="#" class="btn btn-danger btn-sm">Hapus</a>
+        </td>
        </tr>
        
     
