@@ -6,10 +6,8 @@
        $c = $_POST['harga'];
        $d = $_POST['jumlah'];
        $e = $_POST['kondisi'];
-        $qry = $conn->query("INSERT INTO 
-        tb_barang(kode,nama,harga,jumlah,kondisi) VALUES ('$a','$b','$c','$d','$e')");
-    
-   if($qry == true){
+        $qry = $conn->query("INSERT INTO tb_barang(kode,nama,harga,jumlah,kondisi) VALUES ('$a','$b','$c','$d','$e')");
+    if($qry == true){
         echo"<script>alert('Data Berhasil diinput....')</script>";
    }else{
         echo"<script>alert('Data gagal diinput....')</script>";
