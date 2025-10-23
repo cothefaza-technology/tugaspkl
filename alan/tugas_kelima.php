@@ -30,9 +30,11 @@
     <button type="submit" name="btn">Submit</button>
 </form>
 
-
-       <table class="table">
-       <thead>
+<div class="card">
+  <div class="card-header bg-dark text-white">Daftar barang</div>
+  <div class="card-body">
+    <table class="table table-bordered table-hover">
+      <thead class="table-secondary">
        <tr>
        <th scope="col">No</th>
        <th scope="col">kode barang</th>
@@ -64,4 +66,6 @@
 ?>
  </tbody>
        </table>
+    </div>
+    </div>
       
