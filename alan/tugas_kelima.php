@@ -10,7 +10,7 @@
     if($qry == true){
         echo"<script>alert('Data Berhasil diinput....')</script>";
    }else{
-        echo"<script>alert('Data gagal diinput....')</script>";
+        echo"<b>Error..</b>".$conn->error."";
      }
    }
 
