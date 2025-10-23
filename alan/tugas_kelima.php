@@ -1,12 +1,12 @@
 <?php
      include "koneksi.php";
    if(isset($_POST['btn'])){
-       $a = $_POST['kode'];
-       $b = $_POST['nama'];
-       $c = $_POST['harga'];
-       $d = $_POST['jumlah'];
-       $e = $_POST['kondisi'];
-        $qry = $conn->query("INSERT INTO tb_barang(kode,nama,harga,jumlah,kondisi) VALUES ('$a','$b','$c','$d','$e')");
+       $a = $_POST['kd_brg'];
+       $b = $_POST['nama_brg'];
+       $c = $_POST['harga_brg'];
+       $d = $_POST['jumlah_brg'];
+       $e = $_POST['kondisi_brg'];
+        $qry = $conn->query("INSERT INTO tb_barang(kd_barang, nama_brg, harga_brg, jumlah_brg, kondisi_brg) VALUES ('$a','$b','$c','$d','$e')");
     if($qry == true){
         echo"<script>alert('Data Berhasil diinput....')</script>";
    }else{
