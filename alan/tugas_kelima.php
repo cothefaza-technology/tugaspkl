@@ -1,3 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+    .table{
+        border-solid:2px;
+        border-radius:10px;
+
+    }
+</style>
+</head>
+<body>
+    
+
+
 <?php
      include "koneksi.php";
    if(isset($_POST['btn'])){
@@ -28,13 +46,7 @@
     <input type="text" name="kondisi"><br>
     <button type="submit" name="btn">Submit</button>
 </form>
-<style>
-    .table{
-        border-solid:2px;
-        border-radius:10px;
 
-    }
-</style>
 
        <table class="table">
        <thead>
@@ -76,3 +88,6 @@
  </tbody>
        </table>
       
+
+       </body>
+</html>
