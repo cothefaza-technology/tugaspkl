@@ -54,7 +54,7 @@
        <td><?=$no++?></td>
        <td><?=$data['kd_barang']?></td>
        <td><?=$data['nama_brg']?></td>
-       <td><?=$data['harga_brg']?></td>
+       <td>Rp.   <?=number_format($data['harga_brg'])?></td>
        <td><?=$data['jumlah_brg']?></td>
        <td><?=$data['kondisi_brg']?></td>
        </tr>
