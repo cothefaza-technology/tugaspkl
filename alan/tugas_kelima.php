@@ -13,7 +13,6 @@
         echo"<b>Error..</b>".$conn->error."";
      }
    }
-
    ?> 
  
  <form method="post">       
@@ -29,7 +28,13 @@
     <input type="text" name="kondisi"><br>
     <button type="submit" name="btn">Submit</button>
 </form>
+<style>
+    .table{
+        border-solid:2px;
+        border-radius:10px;
 
+    }
+</style>
 
        <table class="table">
        <thead>
